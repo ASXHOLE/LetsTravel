@@ -14,8 +14,8 @@
         android:theme="@style/AppTheme" >
         
         <activity
-        android:name="com.LetsTravel.SignInActivity"
-        android:label="@string/app_name" >
+        android:name="com.LetsTrav.SignInActivity"
+        android:label="我们一起旅游吧" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
