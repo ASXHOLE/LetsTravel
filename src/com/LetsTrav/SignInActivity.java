@@ -43,7 +43,7 @@ public class SignInActivity extends Activity implements OnClickListener{
 			String logname=logName.getText().toString();
 			String logpsw=logPsw.getText().toString();
 			LoginVerification lv=new LoginVerification();
-			if(lv.LoginVerify(logname, logpsw)){//-----------------------------此处为验证用户名密码
+			if(lv.LoginVerify(logname, logpsw)){//---------------------------—-此处为验证用户名密码
 				Log.d("SignInAct", "loginsuccess");
 			}else{
 				Log.d("SignInAct", "loginfaile");
